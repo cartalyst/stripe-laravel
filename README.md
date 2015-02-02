@@ -8,9 +8,11 @@ The package requires PHP 5.4+ and follows the FIG standards PSR-1, PSR-2 and PSR
 
 Part of the Cartalyst Arsenal & licensed [Cartalyst PSL](LICENSE). Code well, rock on.
 
+> **Note:** An active [Cartalyst subscription](https://cartalyst.com/pricing) is required in order to use the Stripe package.
+
 ## Documentation
 
-Reader-friendly Documentation can be found here. [Stripe Manual](https://cartalyst.com/manual/stripe-laravel).
+Reader-friendly Documentation can be found here. [Stripe Laravel Manual](https://cartalyst.com/manual/stripe-laravel).
 
 Raw files can be found via this projects docs/version branch.
 
