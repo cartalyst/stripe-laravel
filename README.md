@@ -2,7 +2,7 @@
 
 [![Build Status](http://ci.cartalyst.com/build-status/svg/47)](http://ci.cartalyst.com/build-status/view/47)
 
-[Cartalyst Stripe][https://cartalyst.com/manual/stripe] package integration for Laravel 4.
+[Cartalyst Stripe](https://cartalyst.com/manual/stripe) package integration for Laravel 4.
 
 The package requires PHP 5.4+ and follows the FIG standards PSR-1, PSR-2 and PSR-4 to ensure a high level of interoperability between shared PHP.
 
