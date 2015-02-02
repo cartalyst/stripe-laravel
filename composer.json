@@ -1,0 +1,55 @@
+{
+    "name": "cartalyst/stripe-laravel",
+    "description": "Cartalyst Stripe package integration for Laravel 4.",
+    "keywords": [
+        "php",
+        "cartalyst",
+        "laravel",
+        "stripe"
+    ],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Cartalyst LLC",
+            "email": "help@cartalyst.com"
+        },
+        {
+            "name": "Bruno Gaspar",
+            "email": "bruno.gaspar@cartalyst.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Dan Syme",
+            "email": "dan.syme@cartalyst.com",
+            "role": "Project Lead"
+        },
+        {
+            "name": "Suhayb Wardany",
+            "email": "su.wardany@cartalyst.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": "4.1.*",
+        "cartalyst/stripe": "1.0.*"
+    },
+    "repositories": [
+        {
+            "type": "composer", "url":
+            "http://packages.cartalyst.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cartalyst\\Stripe\\Laravel\\": "src/"
+        }
+    },
+    "extra": {
+        "component": "package",
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
