@@ -6,9 +6,7 @@ Laravel 4 integration for the [Cartalyst Stripe](https://cartalyst.com/manual/st
 
 The package requires PHP 5.4+ and follows the FIG standards PSR-1, PSR-2 and PSR-4 to ensure a high level of interoperability between shared PHP.
 
-Part of the Cartalyst Arsenal & licensed [Cartalyst PSL](LICENSE). Code well, rock on.
-
-> **Note:** An active [Cartalyst subscription](https://cartalyst.com/pricing) is required in order to use the Stripe package.
+An open source package by [Cartalyst](https://cartalyst.com), code well, rock on!
 
 ## Documentation
 
@@ -28,7 +26,7 @@ Important versions listed below. Refer to the [Changelog](CHANGELOG.md) for a fu
 
 The following support channels can be used for contact.
 
-- [Twitter](https://cartalyst.com/@twitter)
+- [Twitter](https://twitter.com/@cartalyst)
 - [Email](mailto:help@cartalyst.com)
 
 Bug reports, feature requests, and pull requests can be submitted by following our [Contribution Guide](CONTRIBUTING.md).
@@ -41,6 +39,6 @@ Bug reports, feature requests, and pull requests can be submitted by following o
 
 ## License
 
-This software is released under the [Cartalyst PSL](LICENSE) License.
+This software is released under the [BSD 3-Clause](LICENSE) License.
 
 © 2011-2015 Cartalyst LLC, All rights reserved.
