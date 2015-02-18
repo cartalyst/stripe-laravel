@@ -18,7 +18,7 @@
  * @link       http://cartalyst.com
  */
 
-namespace Cartalyst\Stripe\Laravel;
+namespace Cartalyst\Stripe\Laravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
