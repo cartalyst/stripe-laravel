@@ -30,7 +30,7 @@ class FacadeTest extends PHPUnit_Framework_TestCase {
 	{
 		$facade = new ReflectionClass('Illuminate\Support\Facades\Facade');
 
-		$reflection = new ReflectionClass('Cartalyst\Stripe\Laravel\Stripe');
+		$reflection = new ReflectionClass('Cartalyst\Stripe\Laravel\Facades\Stripe');
 
 		$this->assertTrue($reflection->isSubclassOf($facade));
 	}
@@ -38,7 +38,7 @@ class FacadeTest extends PHPUnit_Framework_TestCase {
 	/** @test */
 	public function it_can_test_it_is_a_facade_accessor()
 	{
-		$reflection = new ReflectionClass('Cartalyst\Stripe\Laravel\Stripe');
+		$reflection = new ReflectionClass('Cartalyst\Stripe\Laravel\Facades\Stripe');
 
 		$method = $reflection->getMethod('getFacadeAccessor');
 		$method->setAccessible(true);
