@@ -1,0 +1,7 @@
+{
+	"github" : "cartalyst/stripe",
+	"demo" : {
+		"source" : false,
+		"online" : false
+	}
+}
