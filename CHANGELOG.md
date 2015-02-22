@@ -11,8 +11,8 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 ---
 
-#### v1.0.0 - TBA
+#### v1.0.0 - 2015-02-24
 
 `INIT`
 
-- Added a Laravel 4 Service Provider and a Laravel 4 Facade Alias.
+- Laravel 4 support.
