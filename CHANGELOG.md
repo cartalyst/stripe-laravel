@@ -11,6 +11,16 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 ---
 
+#### v2.0.0 - 2015-02-24
+
+`ADDED`
+
+- Laravel 5 support.
+
+`REMOVED`
+
+- Laravel 4 support.
+
 #### v1.0.0 - 2015-02-24
 
 `INIT`

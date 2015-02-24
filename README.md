@@ -2,7 +2,7 @@
 
 [![Build Status](http://ci.cartalyst.com/build-status/svg/47)](http://ci.cartalyst.com/build-status/view/47)
 
-Laravel 4 integration for the [Cartalyst Stripe](https://cartalyst.com/manual/stripe) package.
+Laravel 5 integration for the [Cartalyst Stripe](https://cartalyst.com/manual/stripe) package.
 
 The package requires PHP 5.4+ and follows the FIG standards PSR-1, PSR-2 and PSR-4 to ensure a high level of interoperability between shared PHP.
 
@@ -14,12 +14,14 @@ Reader-friendly Documentation can be found here. [Stripe Laravel Manual](https:/
 
 Raw files can be found via this projects docs/version branch.
 
+- [2.0](https://github.com/cartalyst/stripe-laravel/tree/docs/2.0)
 - [1.0](https://github.com/cartalyst/stripe-laravel/tree/docs/1.0)
 
 ## Changelog
 
 Important versions listed below. Refer to the [Changelog](CHANGELOG.md) for a full history of the project.
 
+- [2.0](CHANGELOG.md) - 2015-02-24
 - [1.0](CHANGELOG.md) - 2015-02-24
 
 ## Support
