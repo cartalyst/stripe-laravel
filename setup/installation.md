@@ -6,7 +6,7 @@ Cartalyst packages utilize [Composer](http://getcomposer.org), for more informat
 
 Open your `composer.json` file and add the following to the `require` array:
 
-	"cartalyst/stripe-laravel": "1.0.*"
+	"cartalyst/stripe-laravel": "2.0.*"
 
 > **Note:** Make sure that after the required changes your `composer.json` file is valid by running `composer validate`.
 
@@ -24,7 +24,7 @@ Now you are able to require the `vendor/autoload.php` file to autoload the packa
 
 ### Set the Service Provider and Facade alias
 
-The Cart package has optional support for Laravel 4 and it comes bundled with a Service Provider and a Facade for easy integration.
+The Cart package has optional support for Laravel 5 and it comes bundled with a Service Provider and a Facade for easy integration.
 
 After installing the package, open your Laravel config file located at `app/config/app.php` and add the following lines.
 
