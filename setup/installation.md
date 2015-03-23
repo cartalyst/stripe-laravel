@@ -21,4 +21,3 @@ Run Composer to install or update the new requirement.
 or
 
 	php composer update
-
