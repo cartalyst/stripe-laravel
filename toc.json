@@ -3,7 +3,8 @@
 		"introduction"
 	],
 	"setup": [
-		"installation"
+        "installation",
+        "integration"
 	],
 	"usage": [
 		"index"
