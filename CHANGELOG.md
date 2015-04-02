@@ -11,7 +11,7 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 ---
 
-#### v1.0.0 - 2015-02-24
+#### v1.0.0 - 2015-04-02
 
 `INIT`
 

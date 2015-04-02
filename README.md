@@ -20,7 +20,7 @@ Raw files can be found via this projects docs/version branch.
 
 Important versions listed below. Refer to the [Changelog](CHANGELOG.md) for a full history of the project.
 
-- [1.0](CHANGELOG.md) - 2015-02-24
+- [1.0](CHANGELOG.md) - 2015-04-02
 
 ## Support
 
