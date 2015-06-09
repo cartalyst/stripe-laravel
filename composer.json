@@ -31,7 +31,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "5.0.*",
+        "illuminate/support": "~5.0",
         "cartalyst/stripe": "1.0.*"
     },
     "require-dev": {
