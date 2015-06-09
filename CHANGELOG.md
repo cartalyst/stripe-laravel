@@ -11,6 +11,12 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 ---
 
+#### v2.0.1 - 2015-06-09
+
+`UPDATED`
+
+- Loosened Laravel dependency.
+
 #### v2.0.0 - 2015-02-24
 
 `ADDED`
