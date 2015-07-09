@@ -52,7 +52,7 @@ class StripeServiceProvider extends ServiceProvider
      */
     protected function registerStripe()
     {
-        $this->app->bindShared('stripe', function ($app) {
+        $this->app->singleton('stripe', function ($app) {
             $config = $app['config']->get('services.stripe');
 
             $secret = isset($config['secret']) ? $config['secret'] : null;
@@ -72,7 +72,7 @@ class StripeServiceProvider extends ServiceProvider
      */
     protected function registerConfig()
     {
-        $this->app->bindShared('stripe.config', function ($app) {
+        $this->app->singleton('stripe.config', function ($app) {
             return $app['stripe']->getConfig();
         });
 
