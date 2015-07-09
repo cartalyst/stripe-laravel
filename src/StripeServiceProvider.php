@@ -31,6 +31,8 @@ class StripeServiceProvider extends ServiceProvider
     public function register()
     {
         $this->registerStripe();
+
+        $this->registerConfig();
     }
 
     /**
@@ -61,5 +63,21 @@ class StripeServiceProvider extends ServiceProvider
         });
 
         $this->app->alias('stripe', 'Cartalyst\Stripe\Stripe');
+    }
+
+    /**
+     * Register the config class.
+     *
+     * @return void
+     */
+    protected function registerConfig()
+    {
+        $this->app->bindShared('stripe.config', function ($app) {
+            return $app['stripe']->getConfig();
+        });
+
+        $this->app->alias('stripe.config', 'Cartalyst\Stripe\Config');
+
+        $this->app->alias('stripe.config', 'Cartalyst\Stripe\ConfigInterface');
     }
 }
