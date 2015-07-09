@@ -11,6 +11,12 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 ---
 
+#### v1.0.1 - 2015-07-09
+
+`ADDED`
+
+- Config instance is now bound to the IoC Container.
+
 #### v1.0.0 - 2015-04-02
 
 `INIT`
