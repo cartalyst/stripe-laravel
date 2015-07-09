@@ -11,6 +11,16 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 ---
 
+#### v2.0.2 - 2015-07-09
+
+`ADDED`
+
+- Config instance is now bound to the IoC Container.
+
+`REVISED`
+
+- Using `singleton` in favor of `bindShared` being deprecated on Laravel 5.2.
+
 #### v2.0.1 - 2015-06-09
 
 `UPDATED`
