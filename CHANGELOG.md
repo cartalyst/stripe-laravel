@@ -11,6 +11,16 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 ---
 
+### v2.0.3 - 2015-07-29
+
+`ADDED`
+
+- `.gitattributes` and `.travis.yml` file.
+
+`UPDATED`
+
+- Build status badge to Travis CI.
+
 ### v2.0.2 - 2015-07-09
 
 `ADDED`
