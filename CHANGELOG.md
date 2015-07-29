@@ -11,7 +11,7 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 ---
 
-#### v2.0.2 - 2015-07-09
+### v2.0.2 - 2015-07-09
 
 `ADDED`
 
@@ -21,13 +21,13 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 - Using `singleton` in favor of `bindShared` being deprecated on Laravel 5.1 and removed on Laravel 5.2.
 
-#### v2.0.1 - 2015-06-09
+### v2.0.1 - 2015-06-09
 
 `UPDATED`
 
 - Loosened Laravel dependency.
 
-#### v2.0.0 - 2015-02-24
+### v2.0.0 - 2015-02-24
 
 `ADDED`
 
@@ -37,13 +37,23 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 - Laravel 4 support.
 
-#### v1.0.1 - 2015-07-09
+### v1.0.2 - 2015-07-29
+
+`ADDED`
+
+- `.gitattributes` and `.travis.yml` file.
+
+`UPDATED`
+
+- Build status badge to Travis CI.
+
+### v1.0.1 - 2015-07-09
 
 `ADDED`
 
 - Config instance is now bound to the IoC Container.
 
-#### v1.0.0 - 2015-04-02
+### v1.0.0 - 2015-04-02
 
 `INIT`
 
