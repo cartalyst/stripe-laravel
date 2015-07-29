@@ -1,6 +1,6 @@
 # Stripe Laravel
 
-[![Build Status](http://ci.cartalyst.com/build-status/svg/47)](http://ci.cartalyst.com/build-status/view/47)
+[![Build Status](https://travis-ci.org/cartalyst/stripe-laravel.svg?branch=1.0)](https://travis-ci.org/cartalyst/stripe-laravel)
 
 Laravel 4 integration for the [Cartalyst Stripe](https://cartalyst.com/manual/stripe) package.
 
@@ -10,7 +10,7 @@ An open source package by [Cartalyst](https://cartalyst.com), code well, rock on
 
 ## Documentation
 
-Reader-friendly Documentation can be found here. [Stripe Laravel Manual](https://cartalyst.com/manual/stripe-laravel) and [Stripe Manual](https://cartalyst.com/manual/stripe).
+Reader-friendly Documentation can be found here. [Stripe Laravel Manual](https://cartalyst.com/manual/stripe-laravel/1.0) and [Stripe Manual](https://cartalyst.com/manual/stripe/1.0).
 
 Raw files can be found via this projects docs/version branch.
 
