@@ -8,6 +8,15 @@ The package requires PHP 5.4+ and follows the FIG standards PSR-1, PSR-2 and PSR
 
 An open source package by [Cartalyst](https://cartalyst.com), code well, rock on!
 
+## Laravel Compatibility
+
+Stripe Laravel                                                | Laravel
+------------------------------------------------------------- | ----------------
+[1.0.x](https://github.com/cartalyst/stripe-laravel/tree/1.0) | 4.2
+[2.0.x](https://github.com/cartalyst/stripe-laravel/tree/2.0) | 5.0 & 5.1
+[3.0.x](https://github.com/cartalyst/stripe-laravel/tree/3.0) | 5.1
+[4.0.x](https://github.com/cartalyst/stripe-laravel/tree/4.0) | 5.2
+
 ## Documentation
 
 Reader-friendly Documentation can be found [here](https://cartalyst.com/manual/stripe-laravel/2.0).
