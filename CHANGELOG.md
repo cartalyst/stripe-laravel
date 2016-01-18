@@ -11,6 +11,12 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 ---
 
+### v2.0.4 - 2016-01-18
+
+`REVISED`
+
+- Locked `2.0` to Laravel 5.0 and Laravel 5.1.
+
 ### v2.0.3 - 2015-07-29
 
 `ADDED`
