@@ -11,6 +11,12 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 ---
 
+### v3.0.0 - 2016-01-18
+
+`REVISED`
+
+- Support for Laravel 5.1.
+
 ### v2.0.4 - 2016-01-18
 
 `REVISED`
