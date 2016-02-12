@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/cartalyst/stripe-laravel.svg?branch=4.0)](https://travis-ci.org/cartalyst/stripe-laravel)
 
-Laravel 5.2 integration for the [Cartalyst Stripe](https://cartalyst.com/manual/stripe/1.0) package.
+Laravel 5.2 integration for the [Cartalyst Stripe](https://cartalyst.com/manual/stripe/2.0) package.
 
 The package requires PHP 5.4+ and follows the FIG standards PSR-1, PSR-2 and PSR-4 to ensure a high level of interoperability between shared PHP.
 
