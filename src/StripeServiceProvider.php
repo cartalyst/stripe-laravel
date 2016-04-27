@@ -41,7 +41,7 @@ class StripeServiceProvider extends ServiceProvider
     public function provides()
     {
         return [
-            'stripe',
+            'stripe', 'stripe.config'
         ];
     }
 
