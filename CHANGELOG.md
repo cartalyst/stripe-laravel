@@ -11,6 +11,12 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 ---
 
+### v3.0.1 - 2016-04-27
+
+`UPDATED`
+
+- Service provider to add missing value on the provides array.
+
 ### v3.0.0 - 2016-01-18
 
 `REVISED`
