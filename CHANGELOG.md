@@ -53,6 +53,12 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 - Laravel 4 support.
 
+### v1.0.3 - 2016-04-27
+
+`UPDATED`
+
+- Service provider to add missing value on the provides array.
+
 ### v1.0.2 - 2015-07-29
 
 `ADDED`
