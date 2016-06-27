@@ -11,6 +11,12 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 ---
 
+### v3.0.2 - 2016-06-27
+
+`UPDATED`
+
+- Loosened Cartalyst Stripe package dependency to allow the installation of Guzzle 6.0+.
+
 ### v3.0.1 - 2016-04-27
 
 `UPDATED`
