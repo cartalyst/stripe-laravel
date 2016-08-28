@@ -1,6 +1,6 @@
 ### Integration
 
-Integration on Laravel 5.2 is straightforward.
+Integration on Laravel 5.3 is straightforward.
 
 #### Set the Service Provider and Facade alias
 
@@ -41,7 +41,7 @@ return [
 
     'stripe' => [
         'secret'  => 'your-stripe-key-here',
-        'version' => '2015-01-11',
+        'version' => '2016-07-06',
     ],
 
 ];
