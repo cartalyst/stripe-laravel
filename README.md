@@ -17,25 +17,19 @@ Stripe Laravel                                                | Laravel
 [3.0.x](https://github.com/cartalyst/stripe-laravel/tree/3.0) | 5.1
 [4.0.x](https://github.com/cartalyst/stripe-laravel/tree/4.0) | 5.2
 [5.0.x](https://github.com/cartalyst/stripe-laravel/tree/5.0) | 5.3
-[6.0.x](https://github.com/cartalyst/stripe-laravel/tree/5.0) | 5.4
+[6.0.x](https://github.com/cartalyst/stripe-laravel/tree/6.0) | 5.4
 
 ## Documentation
 
 Reader-friendly Documentation can be found [here](https://cartalyst.com/manual/stripe-laravel/6.0).
 
-Raw files can be found via this projects docs/version branch.
-
-- [6.0](https://github.com/cartalyst/stripe-laravel/tree/docs/5.0)
-- [5.0](https://github.com/cartalyst/stripe-laravel/tree/docs/5.0)
-- [4.0](https://github.com/cartalyst/stripe-laravel/tree/docs/4.0)
-- [3.0](https://github.com/cartalyst/stripe-laravel/tree/docs/3.0)
-- [2.0](https://github.com/cartalyst/stripe-laravel/tree/docs/2.0)
-- [1.0](https://github.com/cartalyst/stripe-laravel/tree/docs/1.0)
+Raw files can be found [here](https://github.com/cartalyst/stripe-laravel/tree/docs/6.0).
 
 ## Change Log
 
 Important versions listed below. Refer to the [Change Log](CHANGELOG.md) for a full history of the project.
 
+- [6.0](CHANGELOG.md) - TBA
 - [5.0](CHANGELOG.md) - 2016-08-29
 - [4.0](CHANGELOG.md) - 2016-01-18
 - [3.0](CHANGELOG.md) - 2016-01-18
