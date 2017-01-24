@@ -1,6 +1,6 @@
 ### Integration
 
-Integration on Laravel 5.3 is straightforward.
+Integration on Laravel 5.4 is straightforward.
 
 #### Set the Service Provider and Facade alias
 
@@ -8,11 +8,11 @@ After installing the package, open your Laravel config file located at `config/a
 
 In the `$providers` array add the following service provider for this package.
 
-    'Cartalyst\Stripe\Laravel\StripeServiceProvider',
+    Cartalyst\Stripe\Laravel\StripeServiceProvider::class,
 
 In the `$aliases` array add the following facade for this package.
 
-    'Stripe' => 'Cartalyst\Stripe\Laravel\Facades\Stripe',
+    'Stripe' => Cartalyst\Stripe\Laravel\Facades\Stripe::class,
 
 #### Set the Api Key
 
