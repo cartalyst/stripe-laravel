@@ -4,7 +4,7 @@
 
 Laravel 5.5 integration for the [Cartalyst Stripe](https://cartalyst.com/manual/stripe/2.0) package.
 
-The package requires PHP 5.6.4+ and follows the FIG standards PSR-1, PSR-2 and PSR-4 to ensure a high level of interoperability between shared PHP.
+The package requires PHP 7.0+ and follows the FIG standards PSR-1, PSR-2 and PSR-4 to ensure a high level of interoperability between shared PHP.
 
 An open source package by [Cartalyst](https://cartalyst.com), code well, rock on!
 
