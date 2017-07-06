@@ -11,6 +11,12 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 ---
 
+### v6.0.1 - 2017-07-06
+
+`REVISED`
+
+- Allow any version of Cartalyst Stripe 2 to be installed.
+
 ### v6.0.0 - 2017-01-24
 
 `REVISED`
