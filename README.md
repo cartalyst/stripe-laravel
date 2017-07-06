@@ -1,8 +1,8 @@
 # Stripe Laravel
 
-[![Build Status](https://travis-ci.org/cartalyst/stripe-laravel.svg?branch=6.0)](https://travis-ci.org/cartalyst/stripe-laravel)
+[![Build Status](https://travis-ci.org/cartalyst/stripe-laravel.svg?branch=7.0)](https://travis-ci.org/cartalyst/stripe-laravel)
 
-Laravel 5.4 integration for the [Cartalyst Stripe](https://cartalyst.com/manual/stripe/2.0) package.
+Laravel 5.5 integration for the [Cartalyst Stripe](https://cartalyst.com/manual/stripe/2.0) package.
 
 The package requires PHP 5.6.4+ and follows the FIG standards PSR-1, PSR-2 and PSR-4 to ensure a high level of interoperability between shared PHP.
 
@@ -18,17 +18,19 @@ Stripe Laravel                                                | Laravel
 [4.0.x](https://github.com/cartalyst/stripe-laravel/tree/4.0) | 5.2
 [5.0.x](https://github.com/cartalyst/stripe-laravel/tree/5.0) | 5.3
 [6.0.x](https://github.com/cartalyst/stripe-laravel/tree/6.0) | 5.4
+[7.0.x](https://github.com/cartalyst/stripe-laravel/tree/7.0) | 5.5
 
 ## Documentation
 
-Reader-friendly Documentation can be found [here](https://cartalyst.com/manual/stripe-laravel/6.0).
+Reader-friendly Documentation can be found [here](https://cartalyst.com/manual/stripe-laravel/7.0).
 
-Raw files can be found [here](https://github.com/cartalyst/stripe-laravel/tree/docs/6.0).
+Raw files can be found [here](https://github.com/cartalyst/stripe-laravel/tree/docs/7.0).
 
 ## Change Log
 
 Important versions listed below. Refer to the [Change Log](CHANGELOG.md) for a full history of the project.
 
+- [7.0](CHANGELOG.md) - TBA
 - [6.0](CHANGELOG.md) - 2017-01-24
 - [5.0](CHANGELOG.md) - 2016-08-29
 - [4.0](CHANGELOG.md) - 2016-01-18

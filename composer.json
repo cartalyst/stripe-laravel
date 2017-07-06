@@ -1,6 +1,6 @@
 {
     "name": "cartalyst/stripe-laravel",
-    "description": "Laravel 5.4 integration for the Cartalyst Stripe package.",
+    "description": "Laravel 5.5 integration for the Cartalyst Stripe package.",
     "keywords": [
         "php",
         "cartalyst",
@@ -16,12 +16,12 @@
         }
     ],
     "require": {
-        "php": ">=5.6.4",
-        "illuminate/support": "5.4.*",
+        "php": ">=7.0",
+        "illuminate/support": "5.5.*",
         "cartalyst/stripe": "~2.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.5"
+        "phpunit/phpunit": "~6.0"
     },
     "autoload": {
         "psr-4": { "Cartalyst\\Stripe\\Laravel\\": "src/" }
