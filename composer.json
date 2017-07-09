@@ -30,6 +30,14 @@
         "component": "implementation",
         "branch-alias": {
             "dev-master": "7.0.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Cartalyst\\Stripe\\Laravel\\StripeServiceProvider"
+            ],
+            "aliases": {
+                "Stripe": "Cartalyst\\Stripe\\Laravel\\Facades\\Stripe"
+            }
         }
     },
     "minimum-stability": "dev",
