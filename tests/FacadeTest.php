@@ -21,9 +21,9 @@
 namespace Cartalyst\Stripe\Tests;
 
 use ReflectionClass;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class FacadeTest extends PHPUnit_Framework_TestCase {
+class FacadeTest extends TestCase {
 
 	/** @test */
 	public function it_can_test_it_is_a_facade()
