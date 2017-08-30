@@ -11,7 +11,7 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 ---
 
-### v7.0.0 - TBA
+### v7.0.0 - 2017-08-30
 
 `REVISED`
 
