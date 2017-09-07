@@ -17,6 +17,12 @@ We do not give estimated times for completion on `Accepted` Proposals.
 
 - Support for Laravel 5.6.
 
+### v7.0.0 - 2017-08-30
+
+`REVISED`
+
+- Support for Laravel 5.5.
+
 ### v6.0.1 - 2017-07-06
 
 `REVISED`
