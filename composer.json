@@ -1,6 +1,6 @@
 {
     "name": "cartalyst/stripe-laravel",
-    "description": "Laravel 5.5 integration for the Cartalyst Stripe package.",
+    "description": "Laravel 5.6 integration for the Cartalyst Stripe package.",
     "keywords": [
         "php",
         "cartalyst",
@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "illuminate/support": "5.5.*",
+        "illuminate/support": "5.6.*",
         "cartalyst/stripe": "~2.0"
     },
     "require-dev": {
@@ -29,7 +29,7 @@
     "extra": {
         "component": "implementation",
         "branch-alias": {
-            "dev-master": "7.0.x-dev"
+            "dev-master": "8.0.x-dev"
         },
         "laravel": {
             "providers": [
@@ -40,5 +40,6 @@
             }
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
