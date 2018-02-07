@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
+        "php": ">=7.1.3",
         "illuminate/support": "5.6.*",
         "cartalyst/stripe": "~2.0"
     },
@@ -24,7 +24,9 @@
         "phpunit/phpunit": "~6.0"
     },
     "autoload": {
-        "psr-4": { "Cartalyst\\Stripe\\Laravel\\": "src/" }
+        "psr-4": {
+            "Cartalyst\\Stripe\\Laravel\\": "src/"
+        }
     },
     "extra": {
         "component": "implementation",
@@ -40,6 +42,5 @@
             }
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "stable"
 }
