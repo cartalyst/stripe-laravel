@@ -1,6 +1,6 @@
 ### Integration
 
-Integration on Laravel 5.5 is straightforward.
+Integration on Laravel 5.6 is straightforward.
 
 #### Set the Service Provider and Facade alias
 
