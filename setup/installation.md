@@ -8,7 +8,7 @@ Cartalyst packages utilize [Composer](http://getcomposer.org), for more informat
 
 Open your `composer.json` file and add the following to the `require` array:
 
-	"cartalyst/stripe-laravel": "8.0.*"
+	"cartalyst/stripe-laravel": "9.0.*"
 
 > **Note:** Make sure that after the required changes your `composer.json` file is valid by running `composer validate`.
 
