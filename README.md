@@ -32,7 +32,7 @@ Raw files can be found [here](https://github.com/cartalyst/stripe-laravel/tree/d
 
 Important versions listed below. Refer to the [Change Log](CHANGELOG.md) for a full history of the project.
 
-- [9.0](CHANGELOG.md) - TBA
+- [9.0](CHANGELOG.md) - 2018-09-23
 - [8.0](CHANGELOG.md) - 2018-02-07
 - [7.0](CHANGELOG.md) - 2017-08-30
 - [6.0](CHANGELOG.md) - 2017-01-24
