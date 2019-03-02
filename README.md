@@ -33,7 +33,7 @@ Raw files can be found [here](https://github.com/cartalyst/stripe-laravel/tree/d
 
 Important versions listed below. Refer to the [Change Log](CHANGELOG.md) for a full history of the project.
 
-- [10.0](CHANGELOG.md) - TBA
+- [10.0](CHANGELOG.md) - 2019-03-02
 - [9.0](CHANGELOG.md) - 2018-09-23
 - [8.0](CHANGELOG.md) - 2018-02-07
 - [7.0](CHANGELOG.md) - 2017-08-30
@@ -63,4 +63,4 @@ Bug reports, feature requests, and pull requests can be submitted by following o
 
 This software is released under the [BSD 3-Clause](LICENSE) License.
 
-© 2011-2018 Cartalyst LLC, All rights reserved.
+© 2011-2019 Cartalyst LLC, All rights reserved.
