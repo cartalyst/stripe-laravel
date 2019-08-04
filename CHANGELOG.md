@@ -1,15 +1,4 @@
-# Change Log
-
-This project follows [Semantic Versioning](CONTRIBUTING.md).
-
-## Proposals
-
-We do not give estimated times for completion on `Accepted` Proposals.
-
-- [Accepted](https://github.com/cartalyst/stripe-laravel/labels/Accepted)
-- [Rejected](https://github.com/cartalyst/stripe-laravel/labels/Rejected)
-
----
+# Changelog
 
 ### v10.0.0 - 2019-03-02
 
