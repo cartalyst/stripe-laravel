@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * Part of the Stripe Laravel package.
  *
  * NOTICE OF LICENSE
@@ -23,27 +23,26 @@ namespace Cartalyst\Stripe\Tests;
 use ReflectionClass;
 use PHPUnit\Framework\TestCase;
 
-class FacadeTest extends TestCase {
+class FacadeTest extends TestCase
+{
+    /** @test */
+    public function it_can_test_it_is_a_facade()
+    {
+        $facade = new ReflectionClass('Illuminate\Support\Facades\Facade');
 
-	/** @test */
-	public function it_can_test_it_is_a_facade()
-	{
-		$facade = new ReflectionClass('Illuminate\Support\Facades\Facade');
+        $reflection = new ReflectionClass('Cartalyst\Stripe\Laravel\Facades\Stripe');
 
-		$reflection = new ReflectionClass('Cartalyst\Stripe\Laravel\Facades\Stripe');
+        $this->assertTrue($reflection->isSubclassOf($facade));
+    }
 
-		$this->assertTrue($reflection->isSubclassOf($facade));
-	}
+    /** @test */
+    public function it_can_test_it_is_a_facade_accessor()
+    {
+        $reflection = new ReflectionClass('Cartalyst\Stripe\Laravel\Facades\Stripe');
 
-	/** @test */
-	public function it_can_test_it_is_a_facade_accessor()
-	{
-		$reflection = new ReflectionClass('Cartalyst\Stripe\Laravel\Facades\Stripe');
+        $method = $reflection->getMethod('getFacadeAccessor');
+        $method->setAccessible(true);
 
-		$method = $reflection->getMethod('getFacadeAccessor');
-		$method->setAccessible(true);
-
-		$this->assertEquals('stripe', $method->invoke(null));
-	}
-
+        $this->assertSame('stripe', $method->invoke(null));
+    }
 }
