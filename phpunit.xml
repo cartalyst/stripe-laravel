@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="vendor/autoload.php"
-         backupGlobals="false"
+<phpunit backupGlobals="false"
          backupStaticAttributes="false"
+         beStrictAboutTestsThatDoNotTestAnything="true"
+         beStrictAboutOutputDuringTests="true"
+         bootstrap="vendor/autoload.php"
          colors="true"
-         verbose="true"
          convertErrorsToExceptions="true"
          convertNoticesToExceptions="true"
          convertWarningsToExceptions="true"
+         failOnRisky="true"
+         failOnWarning="true"
          processIsolation="false"
+         stopOnError="false"
          stopOnFailure="false"
+         verbose="true"
 >
     <testsuites>
         <testsuite name="Stripe Laravel Package Test Suite">
@@ -17,10 +22,17 @@
     </testsuites>
     <filter>
         <whitelist>
-            <directory suffix=".php">src/</directory>
+            <directory suffix=".php">./src/</directory>
             <exclude>
                 <file>./src/StripeServiceProvider.php</file>
             </exclude>
         </whitelist>
     </filter>
+    <logging>
+        <log type="tap" target="./build/report.tap" showUncoveredFiles="true"/>
+        <log type="junit" target="./build/report.junit.xml" showUncoveredFiles="true"/>
+        <log type="coverage-html" target="./build/coverage" showUncoveredFiles="true"/>
+        <log type="coverage-text" target="./build/coverage.txt" showUncoveredFiles="true"/>
+        <log type="coverage-clover" target="./build/logs/clover.xml" showUncoveredFiles="true"/>
+    </logging>
 </phpunit>
