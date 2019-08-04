@@ -17,8 +17,8 @@
     ],
     "require": {
         "php": "^7.2",
-        "illuminate/support": "5.8.*",
-        "cartalyst/stripe": "~2.0"
+        "cartalyst/stripe": "^2.0",
+        "illuminate/support": "^6.0"
     },
     "require-dev": {
         "cartalyst/php-cs-fixer-config": "^1.0",
