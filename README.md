@@ -1,66 +1,56 @@
 # Stripe Laravel
 
-[![Build Status](https://travis-ci.org/cartalyst/stripe-laravel.svg?branch=10.0)](https://travis-ci.org/cartalyst/stripe-laravel)
+[![Build Status][icon-travis]][link-travis]
+[![Software License][icon-license]][link-license]
+[![Latest Version on Packagist][icon-version]][link-packagist]
+[![Total Downloads][icon-downloads]][link-packagist]
 
 Laravel 5.8 integration for the [Cartalyst Stripe](https://cartalyst.com/manual/stripe/2.0) package.
 
-The package requires PHP 7.1.3+ and follows the FIG standards PSR-1, PSR-2 and PSR-4 to ensure a high level of interoperability between shared PHP.
-
 An open source package by [Cartalyst](https://cartalyst.com), code well, rock on!
 
-## Laravel Compatibility
+## Version Matrix
 
-Stripe Laravel                                                  | Laravel
---------------------------------------------------------------- | ----------------
-[1.0.x](https://github.com/cartalyst/stripe-laravel/tree/1.0)   | 4.2
-[2.0.x](https://github.com/cartalyst/stripe-laravel/tree/2.0)   | 5.0 & 5.1
-[3.0.x](https://github.com/cartalyst/stripe-laravel/tree/3.0)   | 5.1
-[4.0.x](https://github.com/cartalyst/stripe-laravel/tree/4.0)   | 5.2
-[5.0.x](https://github.com/cartalyst/stripe-laravel/tree/5.0)   | 5.3
-[6.0.x](https://github.com/cartalyst/stripe-laravel/tree/6.0)   | 5.4
-[7.0.x](https://github.com/cartalyst/stripe-laravel/tree/7.0)   | 5.5
-[8.0.x](https://github.com/cartalyst/stripe-laravel/tree/8.0)   | 5.6
-[9.0.x](https://github.com/cartalyst/stripe-laravel/tree/9.0)   | 5.7
-[10.0.x](https://github.com/cartalyst/stripe-laravel/tree/10.0) | 5.8
+Version | Laravel   | PHP Version
+------- | --------- | ------------
+10.x    | 5.8       | >= 7.1.3
+9.x     | 5.7       | >= 7.1.3
+8.x     | 5.6       | >= 7.1.3
+7.x     | 5.5       | >= 7.0.0
+6.x     | 5.4       | >= 5.6.4
+5.x     | 5.3       | >= 5.6.4
+4.x     | 5.2       | >= 5.5.9
+3.x     | 5.1       | >= 5.4.0
+2.x     | 5.0 - 5.1 | >= 5.4.0
+1.x     | 4.2       | >= 5.4.0
 
 ## Documentation
 
-Reader-friendly Documentation can be found [here](https://cartalyst.com/manual/stripe-laravel/10.0).
+Reader-friendly documentation can be found [here][link-docs].
 
-Raw files can be found [here](https://github.com/cartalyst/stripe-laravel/tree/docs/10.0).
+Using the package, but you're stuck? Found a bug? Have a question or suggestion for improving this package? Feel free to create an issue on GitHub, we'll try to address it as soon as possible.
 
-## Change Log
+## Contributing
 
-Important versions listed below. Refer to the [Change Log](CHANGELOG.md) for a full history of the project.
+Thank you for your interest, here are some of the many ways to contribute.
 
-- [10.0](CHANGELOG.md) - 2019-03-02
-- [9.0](CHANGELOG.md) - 2018-09-23
-- [8.0](CHANGELOG.md) - 2018-02-07
-- [7.0](CHANGELOG.md) - 2017-08-30
-- [6.0](CHANGELOG.md) - 2017-01-24
-- [5.0](CHANGELOG.md) - 2016-08-29
-- [4.0](CHANGELOG.md) - 2016-01-18
-- [3.0](CHANGELOG.md) - 2016-01-18
-- [2.0](CHANGELOG.md) - 2015-04-02
-- [1.0](CHANGELOG.md) - 2015-04-02
+- Check out our [contributing guide](/.github/CONTRIBUTING.md)
+- Look at our [code of conduct](/.github/CODE_OF_CONDUCT.md)
 
-## Support
+## Security
 
-The following support channels can be used for contact.
-
-- [Twitter](https://twitter.com/cartalyst)
-- [Email](mailto:help@cartalyst.com)
-
-Bug reports, feature requests, and pull requests can be submitted by following our [Contribution Guide](CONTRIBUTING.md).
-
-## Contributing & Protocols
-
-- [Versioning](CONTRIBUTING.md#versioning)
-- [Coding Standards](CONTRIBUTING.md#coding-standards)
-- [Pull Requests](CONTRIBUTING.md#pull-requests)
+If you discover any security related issues, please email help@cartalyst.com instead of using the issue tracker.
 
 ## License
 
 This software is released under the [BSD 3-Clause](LICENSE) License.
 
-© 2011-2019 Cartalyst LLC, All rights reserved.
+[link-docs]:      https://cartalyst.com/manual/stripe-laravel
+[link-travis]:    https://travis-ci.org/cartalyst/stripe-laravel
+[link-license]:   https://opensource.org/licenses/MIT
+[link-packagist]: https://packagist.org/packages/cartalyst/stripe-laravel
+
+[icon-travis]:    https://travis-ci.org/cartalyst/stripe-laravel.svg?branch=10.0
+[icon-license]:   https://poser.pugx.org/cartalyst/stripe-laravel/license
+[icon-version]:   https://poser.pugx.org/cartalyst/stripe-laravel/version
+[icon-downloads]: https://poser.pugx.org/cartalyst/stripe-laravel/downloads
