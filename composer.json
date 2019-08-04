@@ -1,6 +1,6 @@
 {
     "name": "cartalyst/stripe-laravel",
-    "description": "Laravel 5.8 integration for the Cartalyst Stripe package.",
+    "description": "Laravel 6 integration for the Cartalyst Stripe package.",
     "keywords": [
         "php",
         "cartalyst",
@@ -42,7 +42,7 @@
     "extra": {
         "component": "implementation",
         "branch-alias": {
-            "dev-master": "10.0.x-dev"
+            "dev-master": "11.0.x-dev"
         },
         "laravel": {
             "providers": [

@@ -1,5 +1,11 @@
 # Changelog
 
+### v11.0.0 - TBA
+
+`REVISED`
+
+- Support for Laravel 6.0+
+
 ### v10.0.0 - 2019-03-02
 
 `REVISED`
