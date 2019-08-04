@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * Part of the Stripe Laravel package.
  *
  * NOTICE OF LICENSE
@@ -20,13 +20,15 @@
 
 namespace Cartalyst\Stripe\Laravel;
 
+use Cartalyst\Stripe\Config;
 use Cartalyst\Stripe\Stripe;
+use Cartalyst\Stripe\ConfigInterface;
 use Illuminate\Support\ServiceProvider;
 
 class StripeServiceProvider extends ServiceProvider
 {
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function register()
     {
@@ -36,12 +38,13 @@ class StripeServiceProvider extends ServiceProvider
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function provides()
     {
         return [
-            'stripe', 'stripe.config'
+            'stripe',
+            'stripe.config',
         ];
     }
 
@@ -55,14 +58,14 @@ class StripeServiceProvider extends ServiceProvider
         $this->app->singleton('stripe', function ($app) {
             $config = $app['config']->get('services.stripe');
 
-            $secret = isset($config['secret']) ? $config['secret'] : null;
+            $secret = $config['secret'] ?? null;
 
-            $version = isset($config['version']) ? $config['version'] : null;
+            $version = $config['version'] ?? null;
 
             return new Stripe($secret, $version);
         });
 
-        $this->app->alias('stripe', 'Cartalyst\Stripe\Stripe');
+        $this->app->alias('stripe', Stripe::class);
     }
 
     /**
@@ -76,8 +79,8 @@ class StripeServiceProvider extends ServiceProvider
             return $app['stripe']->getConfig();
         });
 
-        $this->app->alias('stripe.config', 'Cartalyst\Stripe\Config');
+        $this->app->alias('stripe.config', Config::class);
 
-        $this->app->alias('stripe.config', 'Cartalyst\Stripe\ConfigInterface');
+        $this->app->alias('stripe.config', ConfigInterface::class);
     }
 }
