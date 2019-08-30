@@ -1,6 +1,6 @@
 # Changelog
 
-### v11.0.0 - TBA
+### v11.0.0 - 2019-08-30
 
 `REVISED`
 
