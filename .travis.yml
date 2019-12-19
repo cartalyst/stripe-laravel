@@ -1,18 +1,16 @@
 language: php
 
+dist: bionic
+
 php:
   - 7.2
   - 7.3
+  - 7.4
 
 cache:
   directories:
     - $HOME/.composer/cache
 
-before_install:
-  - travis_retry composer self-update
+install: travis_retry composer install
 
-install:
-  - travis_retry composer install --no-interaction --prefer-dist
-
-script:
-  - vendor/bin/phpunit --verbose
+script: vendor/bin/phpunit --verbose
