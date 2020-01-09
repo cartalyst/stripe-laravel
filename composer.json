@@ -1,6 +1,6 @@
 {
     "name": "cartalyst/stripe-laravel",
-    "description": "Laravel 6 integration for the Cartalyst Stripe package.",
+    "description": "Laravel 7 integration for the Cartalyst Stripe package.",
     "keywords": [
         "php",
         "cartalyst",
@@ -16,9 +16,9 @@
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "^7.2.5",
         "cartalyst/stripe": "^2.0",
-        "illuminate/support": "^6.0"
+        "illuminate/support": "^7.0"
     },
     "require-dev": {
         "cartalyst/php-cs-fixer-config": "^1.0",
