@@ -1,6 +1,6 @@
 ### Integration
 
-Integration on Laravel 6 is straightforward.
+Integration on Laravel 7 is straightforward.
 
 #### Set the Service Provider and Facade alias
 
