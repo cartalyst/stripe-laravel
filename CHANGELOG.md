@@ -1,6 +1,6 @@
 # Changelog
 
-### v12.0.0 - TBA
+### v12.0.0 - 2020-03-03
 
 `REVISED`
 
