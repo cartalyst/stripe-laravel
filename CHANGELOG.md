@@ -1,5 +1,11 @@
 # Changelog
 
+### v13.0.0 - 2020-09-08
+
+`REVISED`
+
+- Support for Laravel 8.0+
+
 ### v12.0.0 - 2020-03-03
 
 `REVISED`
