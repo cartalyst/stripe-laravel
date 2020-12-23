@@ -1,6 +1,6 @@
 # Changelog
 
-### v13.1.0 - TBA
+### v13.1.0 - 2020-12-23
 
 - Add PHP 8 support
 
