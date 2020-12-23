@@ -49,11 +49,11 @@ If you discover any security related issues, please email help@cartalyst.com ins
 This software is released under the [BSD 3-Clause](LICENSE) License.
 
 [link-docs]:      https://cartalyst.com/manual/stripe-laravel
-[link-travis]:    https://travis-ci.org/cartalyst/stripe-laravel
+[link-travis]:    https://travis-ci.com/cartalyst/stripe-laravel
 [link-license]:   https://opensource.org/licenses/MIT
 [link-packagist]: https://packagist.org/packages/cartalyst/stripe-laravel
 
-[icon-travis]:    https://travis-ci.org/cartalyst/stripe-laravel.svg?branch=13.x
+[icon-travis]:    https://travis-ci.com/cartalyst/stripe-laravel.svg?branch=13.x
 [icon-license]:   https://poser.pugx.org/cartalyst/stripe-laravel/license
 [icon-version]:   https://poser.pugx.org/cartalyst/stripe-laravel/version
 [icon-downloads]: https://poser.pugx.org/cartalyst/stripe-laravel/downloads
