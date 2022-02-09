@@ -1,6 +1,6 @@
 # Changelog
 
-### v14.0.0 - TBA
+### v14.0.0 - 2022-02-09
 
 `REVISED`
 
