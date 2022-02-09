@@ -5,7 +5,7 @@
 [![Latest Version on Packagist][icon-version]][link-packagist]
 [![Total Downloads][icon-downloads]][link-packagist]
 
-Laravel 8 integration for the [Cartalyst Stripe](https://cartalyst.com/manual/stripe/2.0) package.
+Laravel 9 integration for the [Cartalyst Stripe](https://cartalyst.com/manual/stripe/2.0) package.
 
 An open source package by [Cartalyst](https://cartalyst.com), code well, rock on!
 
@@ -13,6 +13,7 @@ An open source package by [Cartalyst](https://cartalyst.com), code well, rock on
 
 Version | Laravel   | PHP Version
 ------- | --------- | ------------
+14.x    | 9.x       | >= 8.0
 13.x    | 8.x       | >= 7.3
 12.x    | 7.x       | >= 7.2.5
 11.x    | 6.x       | >= 7.2.0
@@ -49,11 +50,11 @@ If you discover any security related issues, please email help@cartalyst.com ins
 This software is released under the [BSD 3-Clause](LICENSE) License.
 
 [link-docs]:      https://cartalyst.com/manual/stripe-laravel
-[link-travis]:    https://travis-ci.com/cartalyst/stripe-laravel
+[link-travis]:    https://app.travis-ci.com/cartalyst/stripe-laravel
 [link-license]:   https://opensource.org/licenses/MIT
 [link-packagist]: https://packagist.org/packages/cartalyst/stripe-laravel
 
-[icon-travis]:    https://travis-ci.com/cartalyst/stripe-laravel.svg?branch=13.x
+[icon-travis]:    https://travis-ci.org/cartalyst/stripe-laravel.svg?branch=14.x
 [icon-license]:   https://poser.pugx.org/cartalyst/stripe-laravel/license
 [icon-version]:   https://poser.pugx.org/cartalyst/stripe-laravel/version
 [icon-downloads]: https://poser.pugx.org/cartalyst/stripe-laravel/downloads

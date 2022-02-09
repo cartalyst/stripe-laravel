@@ -1,5 +1,11 @@
 # Changelog
 
+### v14.0.0 - TBA
+
+`REVISED`
+
+- Support for Laravel 9.0+
+
 ### v13.1.0 - 2020-12-23
 
 - Add PHP 8 support

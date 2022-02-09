@@ -1,6 +1,6 @@
 {
     "name": "cartalyst/stripe-laravel",
-    "description": "Laravel 8 integration for the Cartalyst Stripe package.",
+    "description": "Laravel 9 integration for the Cartalyst Stripe package.",
     "keywords": [
         "php",
         "cartalyst",
@@ -16,13 +16,13 @@
         }
     ],
     "require": {
-        "php": "^7.3 || ^8.0",
+        "php": "^8.0 | ^8.1",
         "cartalyst/stripe": "^2.0",
-        "illuminate/support": "^8.0"
+        "illuminate/support": "^9.0"
     },
     "require-dev": {
         "cartalyst/php-cs-fixer-config": "^1.0",
-        "phpunit/phpunit": "^8.0"
+        "phpunit/phpunit": "^9.0"
     },
     "autoload": {
         "psr-4": {
@@ -42,7 +42,7 @@
     "extra": {
         "component": "implementation",
         "branch-alias": {
-            "dev-master": "13.0.x-dev"
+            "dev-master": "14.0.x-dev"
         },
         "laravel": {
             "providers": [
