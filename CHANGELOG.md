@@ -1,5 +1,11 @@
 # Changelog
 
+### v15.0.0 - TBA
+
+`REVISED`
+
+- Support for Laravel 10.0+
+
 ### v14.0.0 - 2022-02-09
 
 `REVISED`
