@@ -1,6 +1,6 @@
 ### Integration
 
-Integration on Laravel 10 is straightforward.
+Integration on Laravel 11 is straightforward.
 
 #### Set the Service Provider and Facade alias
 
